@@ -1,11 +1,11 @@
-require('dotenv').config();
+require('dotenv').config()
 
 const config = {
   cosmodDbUser: process.env.COSMODDB_USER,
   cosmosDbPassword: process.env.COSMOSDB_PASSWORD,
   cosmosDbName: process.env.COSMOSDB_DBNAME,
   dbHost: process.env.COSMOSDB_HOST,
-  dbPort: process.env.COSMOSDB_PORT,    
+  dbPort: process.env.COSMOSDB_PORT,
   uploads: {
     profile: {
       image: {
@@ -17,4 +17,4 @@ const config = {
   }
 }
 
-exports.config = config;
+exports.config = config

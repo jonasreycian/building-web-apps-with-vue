@@ -1,9 +1,9 @@
-const mongoose = require('mongoose');
+const mongoose = require('mongoose')
 
-const Schema = mongoose.Schema;
+const Schema = mongoose.Schema
 
 const movieSchema = new Schema(
-  {    
+  {
     movieId: { type: String, required: true },
     title: String,
     rating: String,
@@ -40,8 +40,8 @@ const movieSchema = new Schema(
     collection: 'movies',
     read: 'nearest'
   }
-);
+)
 
-const Movie = mongoose.model('Movie', movieSchema);
+const Movie = mongoose.model('Movie', movieSchema)
 
-module.exports = Movie;
+module.exports = Movie

@@ -16,14 +16,14 @@ function seedDB() {
 
 function connect() {
   mongoose.set("debug", true);
-  mongoose.connect(mongoUri,
-    {      
+  mongoose
+    .connect(mongoUri, {
       useNewUrlParser: true,
       useUnifiedTopology: true,
       retryWrites: false,
-      tlsInsecure: true
-    }
-  ).catch(err => console.log(`Failed to connect to db: ${err}`));
+      tlsInsecure: true,
+    })
+    .catch((err) => console.log(`Failed to connect to db: ${err}`));
 
   console.log(`Connected to DB`);
   seedDB();
