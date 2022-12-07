@@ -1,0 +1,14 @@
+import { createI18n } from "vue-i18n";
+import messages from "./messages.js";
+import numberFormats from "./numberFormats.js";
+import datetimeFormats from "./datetimeFormats.js";
+
+export default createI18n({
+  locale: "en",
+  legacy: false,
+  fallbackLocale: "en",
+  globalInjection: true,
+  messages,
+  numberFormats,
+  datetimeFormats
+});

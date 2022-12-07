@@ -1,0 +1,5 @@
+<i18n-d tag="span" :value="item.date" format="shortFormat">
+          <template #month="slotProps">
+            <span style="color:red">{{ slotProps.month }}</span>
+          </template>
+</i18n-d>

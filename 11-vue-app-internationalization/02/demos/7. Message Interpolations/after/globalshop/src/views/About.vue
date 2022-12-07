@@ -1,0 +1,8 @@
+<template>
+  <div class="about">
+    <h1>{{ $t("routes.about") }}</h1>
+    <p>Learn more about us.</p>
+    <p>We are a small company with big dreams. Our goal is to provide items to all of the people in the world. Stay tuned, because your country might be our next destination!</p>
+    <p>{{ $t("popularItem", {itm: $store.getters.items[0].title}) }}</p>
+  </div>
+</template>

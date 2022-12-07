@@ -1,0 +1,3 @@
+$env:AZCOPY_CRED_TYPE = "Anonymous";
+./azcopy.exe copy "C:\Users\Jeremy Morgan\Repos\Cheesy-Vue-Blog\dist\*" "https://cheesyvueblog.blob.core.windows.net/$web/?sv=2020-04-08&se=2021-06-01T19%3A39%3A53Z&sr=c&sp=rwl&sig=zUnQQ2h28vehAYyuUViIisvN0tn9Bu13lp1aI6Z%2BtIs%3D" --overwrite=prompt --from-to=LocalBlob --blob-type Detect --follow-symlinks --put-md5 --follow-symlinks --list-of-files "C:\Users\JEREMY~1\AppData\Local\Temp\stg-exp-azcopy-d08b32af-4a96-4e18-be3e-0420843e7058.txt" --recursive --trusted-microsoft-suffixes=;
+$env:AZCOPY_CRED_TYPE = "";

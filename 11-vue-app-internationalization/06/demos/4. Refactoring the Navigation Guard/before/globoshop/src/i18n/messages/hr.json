@@ -1,0 +1,21 @@
+{
+  "routes": {
+    "items": "Artikli",
+    "about": "O nama"
+  },
+  "cart": {
+    "cart": "Košarica",
+    "subtotal": "Ukupno",
+    "clearButton": "Ukloni ovaj artikl",
+    "items": "{n} artikl | {n} artikla | {n} artikala"
+  },
+  "aboutUs": {
+    "firstParagraph": "Nauči više @.lower:routes.about{'.'}",
+    "secondParagraph": "Mi smo mala tvrtka s velikim snovima. Naš cilj je omogućiti pristup artiklima za sve ljude na svijetu. Pratite nas, jer možda baš vaša zemlja postane naša sljedeća destinacija!",
+    "popularItem": "Najpopularniji artikl na stranici je {itm}, ali ne zadugo!"
+  },
+  "items": {
+    "posted": "Objavljeno",
+    "addToCart": "Dodaj u košaricu"
+  }
+}

@@ -1,0 +1,33 @@
+Old Vue I18n Github Repo (previous to v9)
+https://github.com/kazupon/vue-i18n
+
+Old Vue I18n Docs (previous to v9)
+https://kazupon.github.io/vue-i18n/
+
+New Vue I18n Repo
+https://github.com/intlify/vue-i18n-next
+
+New Vue I18n Docs
+https://vue-i18n.intlify.dev/
+
+
+Migration to Vue 3 
+https://v3.vuejs.org/guide/migration/introduction.html#overview
+
+Composition API from Vue 3 Docs
+https://v3.vuejs.org/guide/composition-api-introduction.html#why-composition-api
+
+
+Cutting Edge Version (Beta) of Vue 3 Devtools (for Chrome)
+https://chrome.google.com/webstore/detail/vuejs-devtools/ljjemllljcmogpfapbkkighbhhppjdbg?hl=en
+
+The Intlify World Blog - Kazuya Kawaguchi Announcing Vue I18n 9.0
+https://blog.intlify.dev/posts/vue-i18n-9.html
+
+
+Vue I18n Loader
+https://github.com/intlify/vue-i18n-loader
+
+
+Vue Cli I18n Plugin
+https://github.com/intlify/vue-cli-plugin-i18n

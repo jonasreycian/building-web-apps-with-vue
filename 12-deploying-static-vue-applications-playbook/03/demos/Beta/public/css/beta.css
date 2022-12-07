@@ -1,0 +1,30 @@
+body {
+    background-color: blueviolet;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: yellow;
+}
+body p, h1, h2, h3{
+    color: yellow; 
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+body a{
+    color: purple;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+.jumbotron {
+    background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left bottom,
+	color-stop(0.04, #418708),
+	color-stop(0.17, #C400F0),
+	color-stop(0.55, #69F703),
+	color-stop(1, #C28213)
+);
+background-image: -o-linear-gradient(left bottom, #418708 4%, #C400F0 17%, #69F703 55%, #C28213 100%);
+background-image: -moz-linear-gradient(left bottom, #418708 4%, #C400F0 17%, #69F703 55%, #C28213 100%);
+background-image: -webkit-linear-gradient(left bottom, #418708 4%, #C400F0 17%, #69F703 55%, #C28213 100%);
+background-image: -ms-linear-gradient(left bottom, #418708 4%, #C400F0 17%, #69F703 55%, #C28213 100%);
+background-image: linear-gradient(to left bottom, #418708 4%, #C400F0 17%, #69F703 55%, #C28213 100%);
+}
+
