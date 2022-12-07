@@ -65,6 +65,11 @@ export default {
       );
 
       if (this.msg.length) {
+
+        let msgExist = this.TodoLists.findIndex((u) => u.name == this.msg);
+
+        if (msgExist != -1) return;
+
         let id = Math.floor(Math.random() * 100);
         const next = { id, name: this.msg };
         this.TodoLists.push(next);
