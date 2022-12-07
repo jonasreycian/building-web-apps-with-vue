@@ -38,6 +38,11 @@ export default {
   },
   methods: {
     Create() {
+      let dataExist = this.TodoLists.findIndex(u => u.name == this.msg);
+      console.log(dataExist);
+
+      if (dataExist != -1) return;
+
       let id = Math.floor(Math.random() * 100);
       const next = { id, name: this.msg };
       this.TodoLists.push(next);
